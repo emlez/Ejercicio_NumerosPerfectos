@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/bbff992efd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Perfect Number</title>
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <i class="fas fa-award"></i>
+      </a>
+    </header>
+    <main>
+      <section class="welcome">
+        <h1>Perfect Number 🔢</h1>
+        <p>
+          In number theory, a <b>perfect number</b> is a positive integer that
+          is equal to the sum of its positive divisors, excluding the number
+          itself. <br /><br />
+          For instance, 6 has divisors 1, 2 and 3 (excluding itself), and 1 + 2
+          + 3 = 6, so 6 is a <b>perfect number</b>.
+        </p>
+      </section>
+      <section class="perfectNumber">
+        <form action="">
+          <label for="perfectInput"> Is this a perfect number? </label>
+          <div class="perfectInput-container">
+            <input id="perfectInput" type="number" placeholder="0" />
+          </div>
+          <button type="button" onclick="perfectNumber()">Calculate</button>
+          <p id="result" class="hideResult"></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a href="https://github.com/emlez/Ejercicio_NumerosPerfectos">
+        <p>See source code</p>
+      </a>
+      <p>Made for Platzi Master</p>
+      <div class="footer-social">
+        <a href="https://github.com/emlez/">
+          <i class="fab fa-github-alt"></i>
+        </a>
+        <a href="https://linktr.ee/emlezdev/">
+          <i class="fas fa-link"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
